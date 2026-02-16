@@ -262,7 +262,7 @@ task.spawn(function()
 						ability4(targetHRP)
 					end
 				else
-					ability4(targetHRP) -- Fallback ability
+					pullplayer(player) -- Fallback ability
 				end
 			end
 		end
